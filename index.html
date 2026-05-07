@@ -5,37 +5,12 @@
   <title>Portfolio - Cheikh Ahmed Tidiane BANE</title>
   <link rel="stylesheet" href="./src/output.css">
 </head>
-<section id="accueil" class="min-h-screen flex items-center px-6">
-        <div class="container mx-auto flex flex-col md:flex-row items-center">
-            
-            <div class="md:w-1/2">
-                <h1 class="text-5xl font-bold mb-4">
-                    Cheikh Ahmed Tidiane <span class="text-green-500">BANE</span>
-                </h1>
-                <p class="text-xl text-gray-400 mb-8">
-                    Étudiant en L2 GIF à l'UNIPRO. <br>
-                    Bienvenue sur mon portfolio de présentation.
-                </p>
-                <a href="#propos" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition">
-                    En savoir plus
-                </a>
-            </div>
-
-            <div class="md:w-1/2 flex justify-center mt-10 md:mt-0">
-                <img src="photo.jpeg" alt="Cheikh Bane" class="w-64 h-64 object-cover rounded-full border-4 border-gray-800 shadow-lg">
-            </div>
-
-        </div>
-    </section>
 <body class="bg-gray-950 text-gray-100 font-sans">
 
-    <header class="fixed w-full z-50 bg-gray-800 bg-opacity-95 border-b border-gray-800">
+    <header class="fixed w-full z-50 bg-gray-900 bg-opacity-95 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="text-lg font-bold tracking-tight">
                 CHEIKH AHMED TIDIANE <span class="text-green-500 text-xl">BANE</span>
-            </div>
-             <div class="text-lg font-bold tracking-tight">
-               
             </div>
             <ul class="hidden md:flex space-x-6 text-xs uppercase tracking-widest font-semibold">
                 <li><a href="#accueil" class="hover:text-green-500 transition">Accueil</a></li>
@@ -48,5 +23,31 @@
         </nav>
     </header>
 
-    </body>
+    <section id="accueil" class="min-h-screen flex items-center px-6 pt-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            
+            <div class="md:w-1/2 text-left">
+                <h1 class="text-5xl font-bold mb-4">
+                    Cheikh Ahmed Tidiane <span class="text-green-500">BANE</span>
+                </h1>
+                <p class="text-xl text-gray-400 mb-8">
+                    Étudiant en L2 GIF à l'UNIPRO. <br>
+                    Bienvenue sur ma présentation.
+                </p>
+                <a href="#propos" class="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700 transition">
+                    En savoir plus
+                </a>
+            </div>
+
+           <div class="md:w-1/2 flex justify-start md:pl-10 mt-10 md:mt-0">
+    <div style="border: 8px solid #22c55e; padding: 10px; background-color: #1f2937; border-radius: 20px;">
+        <img src="photo.jpeg" alt="Cheikh Bane" 
+             style="width: 300px; height: 300px; object-fit: cover; border-radius: 10px;">
+    </div>
+</div>
+
+        </div>
+    </section>
+
+</body>
 </html>
